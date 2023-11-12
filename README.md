@@ -40,11 +40,11 @@ Starts by importing necessary Python libraries for data manipulation, machine le
 
 
 ### 2. Data Preprocessing:
-- **Handling Missing Values:** Addresses missing values in certain columns ('company', 'children', 'country', 'agent') by applying strategies like dropping columns or filling missing values with medians or modes.
-- **Dropping Duplicates and Irrelevant Columns:** Duplicate rows are removed, and columns deemed irrelevant ('reservation_status_date', 'index', 'reservation_status') are dropped.
-- **Feature Engineering:** New features ('kids', 'Full_stay', 'Total_members') are created based on existing columns.
-- **Changing Data Types:** Modifies the data types of certain columns to ensure consistency and accuracy.
-- **One-Hot Encoding:** Categorical variables are one-hot encoded, converting them into a format suitable for machine learning models.
+- **<ins>Handling Missing Values:</ins>** Addresses missing values in certain columns ('company', 'children', 'country', 'agent') by applying strategies like dropping columns or filling missing values with medians or modes.
+- **<ins>Dropping Duplicates and Irrelevant Columns:</ins>** Duplicate rows are removed, and columns deemed irrelevant ('reservation_status_date', 'index', 'reservation_status') are dropped.
+- **<ins>Feature Engineering:</ins>** New features ('kids', 'Full_stay', 'Total_members') are created based on existing columns.
+- **<ins>Changing Data Types:</ins>** Modifies the data types of certain columns to ensure consistency and accuracy.
+- **<ins>One-Hot Encoding:</ins>** Categorical variables are one-hot encoded, converting them into a format suitable for machine learning models.
 
 
 ### 3. Feature Selection:
